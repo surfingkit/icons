@@ -192,6 +192,33 @@ async function main() {
     }
 
     console.log(`Copied ${copiedCount} icon files to dist directory`);
+    
+    // Copy deploy-public directory contents to dist
+    const deployPublicDir = join(import.meta.dir, "deploy-public");
+    if (existsSync(deployPublicDir)) {
+        function copyDirectory(src: string, dest: string) {
+            const entries = readdirSync(src);
+            
+            for (const entry of entries) {
+                const srcPath = join(src, entry);
+                const destPath = join(dest, entry);
+                const stat = statSync(srcPath);
+                
+                if (stat.isDirectory()) {
+                    if (!existsSync(destPath)) {
+                        mkdirSync(destPath, { recursive: true });
+                    }
+                    copyDirectory(srcPath, destPath);
+                } else {
+                    copyFileSync(srcPath, destPath);
+                }
+            }
+        }
+        
+        copyDirectory(deployPublicDir, distDir);
+        console.log("Copied deploy-public contents to dist directory");
+    }
+    
     console.log("Deployment preparation completed!");
 }
 
