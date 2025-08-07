@@ -10,6 +10,8 @@ At present, the project is already being used by SurfingKit, but only for the pr
 
 We plan to integrate the icon set into SurfingKit and accept contributions from the community starting with SurfingKit V2, which will feature an improved icon editor.
 
+The project structure is not stable and may change according to SurfingKit's needs. If you wish to use it at this stage, it's recommended to contact us first: [support@surfingkit.app](mailto:support@surfingkit.app)
+
 ## License
 
 MIT
