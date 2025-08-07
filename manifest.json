@@ -1,0 +1,161 @@
+{
+  "icons": {
+    "com": {
+      "pinterest": {
+        ".": {
+          "domain": "pinterest.com",
+          "site_name": "Pinterest",
+          "icon": "pinterest.com/icon.png"
+        }
+      },
+      "netflix": {
+        ".": {
+          "domain": "netflix.com",
+          "site_name": "Netflix",
+          "icon": "netflix.com/icon.png"
+        }
+      },
+      "spotify": {
+        ".": {
+          "domain": "spotify.com",
+          "site_name": "Spotify",
+          "icon": "spotify.com/icon.png"
+        }
+      },
+      "amazon": {
+        ".": {
+          "domain": "amazon.com",
+          "site_name": "Amazon",
+          "icon": "amazon.com/icon.png"
+        }
+      },
+      "google": {
+        ".": {
+          "domain": "google.com",
+          "site_name": "Google",
+          "icon": "google.com/google.png"
+        },
+        "mail": {
+          ".": {
+            "domain": "mail.google.com",
+            "site_name": "Gmail",
+            "icon": "google.com/gmail.png"
+          }
+        }
+      },
+      "gmail": {
+        ".": {
+          "domain": "gmail.com",
+          "site_name": "Gmail",
+          "icon": "google.com/gmail.png"
+        }
+      },
+      "tiktok": {
+        ".": {
+          "domain": "tiktok.com",
+          "site_name": "TikTok",
+          "icon": "tiktok.com/icon.png"
+        }
+      },
+      "producthunt": {
+        ".": {
+          "domain": "producthunt.com",
+          "site_name": "Product Hunt",
+          "icon": "producthunt.com/icon.png"
+        }
+      },
+      "youtube": {
+        ".": {
+          "domain": "youtube.com",
+          "site_name": "YouTube",
+          "icon": "youtube.com/icon.png"
+        }
+      },
+      "medium": {
+        ".": {
+          "domain": "medium.com",
+          "site_name": "Medium",
+          "icon": "medium.com/icon.png"
+        }
+      },
+      "x": {
+        ".": {
+          "domain": "x.com",
+          "site_name": "X",
+          "icon": "x.com/icon.png"
+        }
+      },
+      "twitter": {
+        ".": {
+          "domain": "twitter.com",
+          "site_name": "Twitter",
+          "icon": "x.com/icon.png"
+        }
+      },
+      "chatgpt": {
+        ".": {
+          "domain": "chatgpt.com",
+          "site_name": "ChatGPT",
+          "icon": "chatgpt.com/icon.png"
+        }
+      },
+      "ycombinator": {
+        "news": {
+          ".": {
+            "domain": "news.ycombinator.com",
+            "site_name": "Hacker News",
+            "icon": "news.ycombinator.com/icon.png"
+          }
+        }
+      },
+      "nytimes": {
+        ".": {
+          "domain": "nytimes.com",
+          "site_name": "The New York Times",
+          "icon": "nytimes.com/icon.png"
+        }
+      },
+      "weather": {
+        ".": {
+          "domain": "weather.com",
+          "site_name": "Weather",
+          "icon": "weather.com/icon.png"
+        }
+      },
+      "reddit": {
+        ".": {
+          "domain": "reddit.com",
+          "site_name": "Reddit",
+          "icon": "reddit.com/icon.png"
+        }
+      },
+      "temu": {
+        ".": {
+          "domain": "temu.com",
+          "site_name": "Temu",
+          "icon": "temu.com/icon.png"
+        }
+      }
+    },
+    "org": {
+      "wikipedia": {
+        ".": {
+          "domain": "wikipedia.org",
+          "site_name": "Wikipedia",
+          "icon": "wikipedia.org/icon.png"
+        }
+      }
+    },
+    "app": {
+      "surfingkit": {
+        ".": {
+          "domain": "surfingkit.app",
+          "site_name": "Surfing Kit",
+          "icon": "surfingkit.app/icon.png"
+        }
+      }
+    }
+  },
+  "totalCount": 21,
+  "generatedAt": "2025-08-07T06:44:45.435Z"
+}
