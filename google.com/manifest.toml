@@ -1,4 +1,10 @@
 [[icons]]
 domain = "google.com"
 site_name = "Google"
-icon = "icon.png"
+icon = "google.png"
+
+[[icons]]
+domain = "mail.google.com"
+site_name = "Gmail"
+icon = "gmail.png"
+aliases = ["gmail.com"]

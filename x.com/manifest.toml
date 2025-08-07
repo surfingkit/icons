@@ -2,3 +2,8 @@
 domain = "x.com"
 site_name = "X"
 icon = "icon.png"
+
+[[icons]]
+domain = "twitter.com"
+site_name = "Twitter"
+icon = "icon.png"
